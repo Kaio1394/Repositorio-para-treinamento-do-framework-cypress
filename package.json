@@ -1,0 +1,14 @@
+{
+  "name": "buger-eats",
+  "version": "1.0.0",
+  "description": "Testes de aceitação do app Buger Eats.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open "
+  },
+  "author": "Kaio Candido Santiago",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.5.4"
+  }
+}
