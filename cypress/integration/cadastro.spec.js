@@ -13,7 +13,8 @@ describe('Cadastro', () =>{
         cy.get('input[value="Buscar CEP"]').click();
         cy.get('input[name="address"]').should('have.value', 'Rua Ucrânia'); 
         cy.get('input[name="district"]').should('have.value', 'Uvaranas'); 
-        cy.get('input[name="city-uf"]').should('have.value', 'Ponta Grossa/PR');     
+        cy.get('input[name="city-uf"]').should('have.value', 'Ponta Grossa/PR');  
+        cy.contains('.delivery-method li', 'Bicicleta').click();   
     });
     
 });
